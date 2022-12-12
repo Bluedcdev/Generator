@@ -1,18 +1,16 @@
 <!doctype html>
 <html>
-<head>
-  <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>THE UNDERGROUND</title>
-    <link rel="stylesheet" href="style.css">
+    <title>About</title>
+    <link href="/style.css" rel="stylesheet">
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="script.js" defer></script>
-    <link rel="website icon" href="Leak1.png">
   </head>
-<body class="Background1">
-  <!-- JavaScript Bundle with Popper -->
+  <body class="Background2">
+    <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <nav class="navbar bg-dark">
   <div class="container-fluid">
@@ -58,44 +56,39 @@
     </div>
   </div>
 </nav>
-
-  <div class="container">
-    <h1 style="font-size: 60%;" id="Text1" class="Underground">The Underground early access countdown</h1>
-    <div id="line"></div>
-        <div style="position: relative; font-size: 120%;">
-    <p class="TIMER" id="timer"></p>
-        </div>
-</div>
-<div class="Infobtn">
-<button type="button" class="btn-grad " data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Info
-</button>
-</div>
-
-
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog bg-dark text-white">
-    <div class="modal-content bg-dark text-white">
-      <div class="modal-header bg-dark text-white">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">The Underground infos</h1>
-        <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button style="position: absolute; left:0%; color: rgb(255, 255, 255);" class="nav-link active" id="pills-Game-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">About the Game</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button style="position: absolute; left:50%; color: rgb(255, 255, 255);" class="nav-link" id="pills-About-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">About the Dev</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button style="position: absolute; right:0%; color: rgb(255, 255, 255);" class="nav-link" id="pills-Date-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Release Date</button>
+      </li>
+      <li class="nav-item" role="presentation">
+      </li>
+    </ul>
+    <div class="tab-content " id="pills-tabContent">
+      <div class="tab-pane fade show active text-white text-center shadow " id="pills-home" role="tabpanel" aria-labelledby="pills-Game-tab" tabindex="0">
+        <br>
+        <h5>Welcome to the Underground, an upcoming Singeplayer Horror Game.</h5>
+        <h5>You will be able to play the first level of the Backrooms.</h5>
+        <h5>There will also be Updates that will include Bug Fixes, Game Improvment, new maps, assets, maybe Minigames and more.</h5>
+        <h5>In the first Level you must complete Puzzles to get ahead. In the End you must escape the Backrooms enemy and find an exit</h5>
+        <h5>The Game is gonna be Free.</h5>
+        <h5>You can see some leaks in the <a style="color:red; text-decoration: none;" href="/Leaks.html">Leaks</a> Tab</h5>
       </div>
-      <div class="modal-body bg-dark">
-        <ul class="text-white">
-          <li>When This countdown ends, the game "The Underground" will be released</li>
-          <li>Every 4 Weeks there will be a new Leak!</li>
-          <li>Next Leak on the 11/12/2022</li>
-          <li>Chapter 1 beta will release on december 24.</li>
-  </ul>
+      <div style="position: absolute; left: 38%; top: 105px;" class="tab-pane fade text-white shadow" id="pills-profile" role="tabpanel" aria-labelledby="pills-About-tab" tabindex="0">
+        <h4>I am the only Developer that develops The Underground</h4>
+        <h4>I am still in school </h4>
+        <h4>My Discord name is: Finanzamt#5517</h4>
+        <h4>I make games in Unreal Engine</h4>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary bg-danger" data-bs-dismiss="modal">Close</button>
-        <a href="/About.html"><button type="button" class="btn btn-primary">More infos</button></a>
-      </div>
+      <br>
+      <div  class="tab-pane fade text-white" id="pills-contact" role="tabpanel" aria-labelledby="pills-Date-tab" tabindex="0"><h4 style="position: absolute; left: 42%;">You Can see the Release Date on the <a style="text-decoration: none; color: red;" href="/Home.html">Start Page</a></h4></div>
+  
     </div>
-  </div>
-</div>
+
   </body>
-  </html>
+</html>
